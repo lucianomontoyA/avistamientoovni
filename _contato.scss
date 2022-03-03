@@ -10,3 +10,12 @@ body{
     color:orangered;
 }
 h2{color:orangered}
+
+
+@mixin fuente { 
+    font-family: monospace;
+    color: aquamarine;
+}
+header{
+    @include fuente()
+}
